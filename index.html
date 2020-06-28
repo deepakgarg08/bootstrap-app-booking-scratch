@@ -23,66 +23,120 @@
 
 
 <body>
-  <div class="container w-50">
+  <div class="container maincontainer">
     <h2 class="text-center my-3">Welcome to Booking App</h2>
     <!-- RESPONSIVE GRID -->
     <div class="row">
-      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 " style="border:1px solid #333">
-        <!-- <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2" style="border:1px solid #333"d-none d-sm-block> -->
-        <!-- LEFT CONTAINERDATA -->
+      <!-- LEFT CONTAINERDATA d-none d-sm-block-->
+
+      <!-- <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3" style="border:1px solid #333"> -->
+      <!-- <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3" style="border:1px solid #333" > -->
+      <div class="col-3" style="border:1px solid #333">
         <div class="d-flex flex-column row-hl">
           <!-- LIST GROUP WITH LINKS -->
           <div class="navbar navbar-expand-sm navbar-light bg-light mb-3">
-            <div class="container">
-              <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-              <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav flex-column">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Location</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Staff</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Extra Service</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Date & Time</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Information</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Confirmation</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"></a>
-                  </li>
-                </ul>
-              </div>
+            <!-- <div class="container"> -->
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Location</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Staff</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Extra Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Date & Time</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Information</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Confirmation</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"></a>
+                </li>
+              </ul>
             </div>
           </div>
+        </div>
+      </div>
 
+      
+      <!-- <div class="col-9 offset-md-0" style="border:1px solid #333"> -->
+      <!-- <div class="col" style="border:1px solid #333"> -->
+      <div class="col-sm-6 col-md-8 col-lg-9 col-xl-9 h-100" style="border:1px solid #333">
+        <!-- <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9" style="border:1px solid #333"> -->
+
+        <div id="cards-prop">
+          <span class="friendly-prop mb-5 col-sm-3  ">
+            <button id="friendly">
+              <div id="cardprops ">
+
+                <img img-fluid src="https://source.unsplash.com/random/200x200" alt="props.name" id="avatar" />
+                <h1 id="username">{props.name}</h1>
+                <span>{e.price} Rs </span>
+
+              </div>
+            </button>
+          </span>
+
+
+          <span class="friendly-prop mb-5">
+            <button id="friendly">
+              <div id="cardprops ">
+
+                <img img-fluid src="https://source.unsplash.com/random/200x200" alt="props.name" id="avatar" />
+                <h1 id="username">{props.name}</h1>
+                <span>{e.price} Rs </span>
+
+              </div>
+            </button>
+          </span>
+
+
+          <span class="friendly-prop mb-5">
+            <button id="friendly">
+              <div id="cardprops ">
+
+                <img img-fluid src="https://source.unsplash.com/random/200x200" alt="props.name" id="avatar" />
+                <h1 id="username">{props.name}</h1>
+                <span>{e.price} Rs </span>
+
+              </div>
+            </button>
+          </span>
+
+
+          <span class="friendly-prop mb-5">
+            <button id="friendly">
+              <div id="cardprops ">
+
+                <img img-fluid src="https://source.unsplash.com/random/200x200" alt="props.name" id="avatar" />
+                <h1 id="username">{props.name}</h1>
+                <span>{e.price} Rs </span>
+
+              </div>
+            </button>
+          </span>
         </div>
 
-
       </div>
-      <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9" style="border:1px solid #333">
 
-        <ul>
-          <li>9 column on small screens</li>
-          <li>9 column on medium screen</li>
-          <li>9 column on large screen</li>
-          <li>9 column on xlarge screen</li>
-        </ul>
-      </div>
+
     </div>
+
+  </div>
   </div>
 
 
@@ -103,4 +157,3 @@
 </body>
 
 </html>
-
