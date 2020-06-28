@@ -1,8 +1,8 @@
 .src-image {
     display: none;
-  }
-  
-  .card {
+}
+
+.card {
     overflow: hidden;
     position: relative;
     border: 1px solid #CCC;
@@ -12,14 +12,13 @@
     background-color: #e2d9d9;
     /* width: 180px;
     height: 185px; */
-
     width: 110%;
     height: 110%;
     margin: -5%;
     /* color: rgb(136, 172, 217); */
-  }
-  
-  .card .header-bg {
+}
+
+.card .header-bg {
     /* This stretches the canvas across the entire hero unit */
     position: absolute;
     /* top: 0;
@@ -30,15 +29,15 @@
     border-bottom: 1px rgb(202, 192, 192) solid;
     /* This positions the canvas under the text */
     z-index: 1;
-    
-  }
-  .card .avatar {
+}
+
+.card .avatar {
     position: relative;
     margin-top: 15px;
     z-index: 100;
-  }
-  
-  .card .avatar img {
+}
+
+.card .avatar img {
     width: 60%;
     height: 60%;
     /* width: 100px;
@@ -47,9 +46,9 @@
     -moz-border-radius: 50%;
     border-radius: 50%;
     /* border: 5px solid rgba(0,0,30,0.8); */
-  }
-  
-  .friendly {
+}
+
+.friendly {
     /* display: inline-grid; */
     /* margin: 1%;
     margin-top: 2%;
@@ -57,7 +56,7 @@
     /* margin: 8px; */
     /* height: 200px; */
     /* width: 210px; */
-    /* width: 24%; */ 
+    /* width: 24%; */
     /* margin: 1%; */
     padding: 0px;
     background: #FFF;
@@ -68,30 +67,44 @@
     border-radius: 10%;
 }
 
-#rightcontainer{
+#rightcontainer {
     background-color: #E4EBF3;
     min-height: 600px;
 }
 
-.leftcontainer{
-    background-color: #121314;
+.leftcontainer {
+    background-color: #292d32;
     min-height: 600px;
 }
-
-
 
 html {
     min-height: 100%;
 }
 
-body{
+body {
     font-family: system-ui;
-    background-image: linear-gradient(#FDC830, yellow, #F37335);
-
+    /* background-image: linear-gradient(#FDC830, yellow, #F37335); */
 }
 
-.nav-prop{
-    min-height:600px;
-    background-color: #2b4c6d;
+.nav-prop {
+    min-height: 600px;
+    background-color: #292d32;
+}
 
+@media (max-width: 575px) {
+    body {
+        background: rgb(80, 255, 240);
+    }
+    .leftcontainer {
+        /* background-color: #000000; */
+        min-height: auto;
+    }
+    .nav-prop {
+        min-height: auto;
+        background-color: #292d32;
+    }
+    #rightcontainer {
+        background-color: #E4EBF3;
+        min-height: 600px;
+    }
 }
