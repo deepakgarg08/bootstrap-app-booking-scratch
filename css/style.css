@@ -93,7 +93,7 @@ html {
 
 body {
     font-family: system-ui;
-    /* background-image: linear-gradient(#FDC830, yellow, #F37335); */
+    background-image: linear-gradient(#FDC830, yellow, #F37335);
 }
 
 .nav-prop {
@@ -103,7 +103,7 @@ body {
 
 @media (max-width: 575px) {
     body {
-        background: rgb(80, 255, 240);
+        /* background: rgb(80, 255, 240); */
     }
     .leftcontainer {
         /* background-color: #000000; */
@@ -119,16 +119,6 @@ body {
     }
 }
 
-@media (min-width: 576px) {
-    body {
-        /* background: red; */
-    }
-    /* .maincontainer{
-        width: 90%;
-    } */
-}
-
-
 
 
 
@@ -136,7 +126,7 @@ body {
 
 @media (min-width: 768px) {
     body {
-        background: blue
+        /* background: blue */
     }
 }
 
@@ -144,7 +134,7 @@ body {
 
 @media (min-width: 992px) {
     body {
-        background: green;
+        /* background: green; */
     }
 }
 
@@ -152,7 +142,7 @@ body {
 
 @media (min-width: 1200px) {
     body {
-        background: yellow;
+        /* background: yellow; */
     }
 }
 
@@ -164,14 +154,15 @@ body {
 
 @media (max-width: 767px) {
     body {
-        background: rgb(172, 3, 121);
+        /* background: rgb(172, 3, 121); */
     }
     .leftcontainer {
         /* background-color: #000000; */
-        min-height: auto;
+        /* min-height: auto; */
     }
     .nav-prop {
-        min-height: auto;
+        /* min-height: auto; */
+        width: 100%;
         background-color: #292d32;
     }
   
