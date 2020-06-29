@@ -15,7 +15,6 @@
     /* margin:-17%; */
     margin-top: 18%;
     /* color: rgb(136, 172, 217); */
-
     padding: 0px;
     background: #FFF;
     box-shadow: 0px 0px 5px #555;
@@ -103,7 +102,7 @@ body {
 }
 
 .nav-prop {
-    min-height: 600px;
+    /* min-height: 600px; */
     background-color: #292d32;
 }
 
@@ -124,9 +123,6 @@ body {
         min-height: 600px;
     }
 }
-
-
-
 
 /* Medium devices (tablets) */
 
@@ -156,8 +152,6 @@ body {
 
 /* Extra small devices (portrait phones)*/
 
-
-
 @media (max-width: 767px) {
     body {
         /* background: rgb(172, 3, 121); */
@@ -171,17 +165,13 @@ body {
         width: 100%;
         background-color: #292d32;
     }
-.card .avatar {
-    margin: 2%;
-	width:26%;
-    height:60%;
-    margin-left: 36%;
-  }
+    .card .avatar {
+        margin: 2%;
+        width: 26%;
+        height: 60%;
+        margin-left: 36%;
+    }
 }
-
-
-
-
 
 /* Small devices (landscape phones)*/
 
@@ -195,16 +185,18 @@ body {
 
 @media (max-width: 1199px) {}
 
-
-
-.myclass{
-    color:white
+.myclass {
+    color: white
 }
 
+.myclass {
+    color: white
+}
 
 .circleonclick {
     height: 27px;
     width: 27px;
+    /* width: 20%; */
     display: table-cell;
     vertical-align: middle;
     border-radius: 50%;
@@ -218,7 +210,7 @@ body {
 .circlebeforeclick {
     height: 27px;
     width: 27px;
-    width: 24%;
+    /* width: 20%; for circle width*/
     display: table-cell;
     vertical-align: middle;
     border-radius: 50%;
@@ -232,6 +224,7 @@ body {
 .circleafterclick {
     height: 27px;
     width: 27px;
+    /* width: 20%; */
     display: table-cell;
     vertical-align: middle;
     border-radius: 50%;
@@ -240,18 +233,6 @@ body {
     margin: 0px 7px 0px 0px;
     font-size: 20px;
     text-align: center;
-}
-
-
-
-.nav-prop{
-    /* padding: 20%; */
-    padding-left: 62px;
-    /* padding-left: 23%;
-    padding-top : 21% */
-    padding-top : 44px;
-    padding: auto;
-    /* 44px */
 }
 
 .nameproperty {
@@ -272,19 +253,3 @@ body {
 .non-selected {
     color: #FFFFFF;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
