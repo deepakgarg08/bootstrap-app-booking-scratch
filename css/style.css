@@ -202,6 +202,84 @@ body {
 }
 
 
+.circleonclick {
+    height: 27px;
+    width: 27px;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 50%;
+    /* may require vendor prefixes */
+    background: #4FBF65;
+    margin: 0px 7px 0px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.circlebeforeclick {
+    height: 27px;
+    width: 27px;
+    width: 24%;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 50%;
+    /* may require vendor prefixes */
+    background: #626c76;
+    margin: 0px 7px 0px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.circleafterclick {
+    height: 27px;
+    width: 27px;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 50%;
+    /* may require vendor prefixes */
+    background: #6c70dc;
+    margin: 0px 7px 0px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.nav-prop{
+    /* padding: 20%; */
+    padding-left: 62px;
+    /* padding-left: 23%;
+    padding-top : 21% */
+    padding-top : 44px;
+    padding: auto;
+    /* 44px */
+}
+
+.nameproperty {
+    display: inline-table;
+    /* display: inline-flex; */
+    /* width: 170px; */
+    width: 110%;
+    /* height: 24px; */
+    height: 100%;
+    margin: 0px 0px 30px;
+    color: #FFFFFF
+}
+
+.selected {
+    color: #4FBF65;
+}
+
+.non-selected {
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
 
 
 
