@@ -24,6 +24,8 @@
     border-radius: 10%;
     margin-left: 1%;
     margin-right: 1%;
+    
+
 }
 
 .card .header-bg {
@@ -88,9 +90,16 @@
 
 .leftcontainer {
     background-color: #292d32;
-    min-height: 600px;
+    height: 600px;  
+    /* min-height: 600px; */
+    /* padding:0%; */
     /* left: 2%; */
 }
+
+.nav-padding{
+    padding:22%
+}
+
 
 html {
     min-height: 100%;
@@ -112,15 +121,22 @@ body {
     }
     .leftcontainer {
         /* background-color: #000000; */
-        min-height: auto;
+        /* min-height: auto; */
+        /* height: 1%; */
     }
     .nav-prop {
-        min-height: auto;
         background-color: #292d32;
     }
+
     #rightcontainer {
         background-color: #E4EBF3;
         min-height: 600px;
+        margin-bottom: 25%;
+    }
+
+    .card{
+        margin-top: 5%;
+
     }
 }
 
@@ -159,6 +175,7 @@ body {
     .leftcontainer {
         /* background-color: #000000; */
         /* min-height: auto; */
+        height:auto
     }
     .nav-prop {
         /* min-height: auto; */
