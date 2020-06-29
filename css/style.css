@@ -15,7 +15,6 @@
     /* margin:-17%; */
     margin-top: 18%;
     /* color: rgb(136, 172, 217); */
-
     padding: 0px;
     background: #FFF;
     box-shadow: 0px 0px 5px #555;
@@ -103,7 +102,7 @@ body {
 }
 
 .nav-prop {
-    min-height: 600px;
+    /* min-height: 600px; */
     background-color: #292d32;
 }
 
@@ -121,12 +120,9 @@ body {
     }
     #rightcontainer {
         background-color: #E4EBF3;
-        min-height: 600px; 
+        min-height: 600px;
     }
 }
-
-
-
 
 /* Medium devices (tablets) */
 
@@ -156,8 +152,6 @@ body {
 
 /* Extra small devices (portrait phones)*/
 
-
-
 @media (max-width: 767px) {
     body {
         /* background: rgb(172, 3, 121); */
@@ -171,17 +165,13 @@ body {
         width: 100%;
         background-color: #292d32;
     }
-.card .avatar {
-    margin: 2%;
-	width:26%;
-    height:60%;
-    margin-left: 36%;
-  }
+    .card .avatar {
+        margin: 2%;
+        width: 26%;
+        height: 60%;
+        margin-left: 36%;
+    }
 }
-
-
-
-
 
 /* Small devices (landscape phones)*/
 
@@ -195,26 +185,18 @@ body {
 
 @media (max-width: 1199px) {}
 
-
-
-.myclass{
-    color:white
+.myclass {
+    color: white
 }
 
-
-
-
-
-.myclass{
-    color:white
+.myclass {
+    color: white
 }
-
 
 .circleonclick {
     height: 27px;
     width: 27px;
     /* width: 20%; */
-
     display: table-cell;
     vertical-align: middle;
     border-radius: 50%;
@@ -243,7 +225,6 @@ body {
     height: 27px;
     width: 27px;
     /* width: 20%; */
-
     display: table-cell;
     vertical-align: middle;
     border-radius: 50%;
@@ -253,7 +234,6 @@ body {
     font-size: 20px;
     text-align: center;
 }
-
 
 .nameproperty {
     display: inline-table;
@@ -273,7 +253,3 @@ body {
 .non-selected {
     color: #FFFFFF;
 }
-
-
-
-
