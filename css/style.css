@@ -213,8 +213,8 @@ body {
 }
 
 .circleonclick {
-    height: 27px;
-    width: 26px;
+    height: 30px;
+    width: 30px;
     /* width: 19%; */
     display: table-cell;
     vertical-align: middle;
@@ -227,8 +227,8 @@ body {
 }
 
 .circlebeforeclick {
-    height: 27px;
-    width: 26px;
+    height: 30px;
+    width: 30px;
     /* width: 19%; */
     display: table-cell;
     vertical-align: middle;
@@ -241,8 +241,8 @@ body {
 }
 
 .circleafterclick {
-    height: 27px;
-    width: 26px;
+    height: 30px;
+    width: 30px;
     /* width: 19%; */
     display: table-cell;
     vertical-align: middle;
@@ -272,3 +272,17 @@ body {
 .non-selected {
     color: #FFFFFF;
 }
+
+
+
+.nav-link{
+    color: white;
+    /* font-size: 20px; */
+}
+
+
+
+
+
+
+
