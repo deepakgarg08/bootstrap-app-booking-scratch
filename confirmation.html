@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style2.css">
+  <title>Bootstrap Theme</title>
+</head>
+
+<body>
+  <!-- START HERE -->
+  <div class="d-flex mx-auto">
+    <div class="container container-fluid">
+      <h2 class="text-center my-3 ">Welcome to Booking App</h2>
+      <div class="row no-gutters">
+        <!-- left div -->
+        <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 text-left leftcontainer bg-black main-left-prop ">
+
+        </div>
+
+        <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9 h-100">
+          <div id="rightcontainer" class="main-right-prop">
+            <!-- EQUAL WIDTH STACKED -->
+            <div class="container">
+
+              <div class="row row1-prop commonrow-prop">
+
+                <div class="col-sm mt-5 col1-prop" style="border:1px solid #333">
+                  <div class="mt-2">
+                    <div>
+                      <!-- <span style={{ color: "#6C70DC", fontFamily: 'Poppins' }}>Location: <span> </span></span> -->
+                      <span style="color: #6C70DC; font-family: Poppins">Location: <span> </span></span>
+                      <span> Bielefeld </span>
+                      <!-- <span> {props.flag.location} </span> -->
+                    </div>
+                    <div>
+                      <span style="color: #6C70DC; font-family: Poppins">Date & TIme: <span> </span></span>
+                      <!-- <span> {props.flag.dateAndTime.date} <span> -</span> {props.flag.dateAndTime.time} </span> -->
+                      <span> 7/2/2020, 4:45:55 PM <span> -</span> 10:00 </span>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- EQUAL WIDTH STACKED -->
+              <div class="row justify-content-between mt-3 row2-prop commonrow-prop">
+                <div class="col-md-6  col2-prop" style="border:1px solid #333">
+                  <!-- <div id="col2-1"> -->
+                  <div id={props.id}>
+                    <!-- <span style={{ float: "left", color: "#E09B22" }}>{props.flag.services.name} </span> -->
+                    <!-- <span style={{ float: "right", color: "#E09B22" }}>{servicePrice} Rs </span><br /> -->
+
+                    <span style="color: #E09B22; float: left">Aquasure (RO) </span>
+                    <span style="color: #E09B22; float: right">500 Rs </span><br />
+
+                    <!-- {props.flag.extraService.name ?  -->
+                    <!-- <div> -->
+                    <!-- <span style={{ float: "left", color: "#E09B22" }}> {props.flag.extraService.name} </span> -->
+                    <!-- <span style={{ float: "right", color: "#E09B22" }}> {extraservicePrice} Rs </span> -->
+
+                    <!-- <span style="color: #E09B22; float: left"> {props.flag.extraService.name} </span> -->
+                    <!-- <span style="color: #E09B22; float: right"> {extraservicePrice} Rs </span> -->
+
+                    <!-- </div> -->
+                    <!-- : null
+                      } -->
+
+                    <!-- <input type="text" name="discount" id="discountinput" placeholder="Coupon" value={discount}
+                        onChange={e=> setDiscount(e.target.value)} /> -->
+
+                    <input type="text" name="discount" id="discountinput" placeholder="Coupon" value="discount" />
+
+                    <!-- {/* <br />
+                      <span style={{ float: "left", color: "#5ac36e" }}> Discount</span>
+                      <span style={{ float: "right", color: "#5ac36e" }}>{discountPrice} Rs </span> */} -->
+                  </div>
+                  <br />
+                  <div className="total_price_label">
+
+                    <!-- <span style={{ float: "left", color: "green" }}>Total Price </span> -->
+                    <!-- <span style={{ float: "right", color: "green" }}> {totalPrice} Rs </span><br /> -->
+
+                    <span style="color: green; float: left">Total Price </span>
+                    <span style="color: green; float: right"> 500 Rs </span><br />
+                  </div>
+                </div>
+
+
+                <div class="col-md-5  col3-prop" style="border:1px solid #333">
+
+                  <div id={props.id}>
+                    <div style="float: ;eft; text-align: left">
+                      <a href="#">Credit Card</a><br />
+                      <a href="#"> Paytm</a><br />
+                      <a href="#"> Google Pay</a><br />
+                      <a href="#"> Phone Pay</a><br />
+                      <a href="#"> NetBanking</a><br />
+                    </div>
+                  </div>
+                </div>
+                <!-- EQUAL WIDTH STACKED -->
+                <div class="row mt-3 row3-prop commonrow-prop">
+                  <div class="col-sm col4-prop" style="border:1px solid #333">Exeriment3 Width Stack</div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+  </script>
+</body>
+
+</html>

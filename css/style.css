@@ -29,6 +29,8 @@
 }
 
 .card .avatar img {
+    /* width: 60%;
+    height: 60%; */
     width: 60%;
     height: 60%;
     -webkit-border-radius: 50%;
@@ -207,10 +209,28 @@ body {
 
 @media (max-width: 1199px) {}
 
-.myclass {
+#myclass {
     color: white
 }
 
-.myclass {
-    color: white
-}
+
+
+/* confirmation */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

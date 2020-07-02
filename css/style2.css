@@ -1,0 +1,129 @@
+/* confirmation */
+.row-hl {
+    /* background: #f4f4f4; */
+    /* height: 30px; */
+  }
+
+  /* .item-hl {
+    border: 1px solid #333;
+  } */
+
+.main-right-prop{
+    background-color: #E4EBF3;
+    min-height: 600px;
+    width:100%
+}
+
+
+.main-left-prop{
+    background-color: #aa2513;
+    min-height: 600px;
+    width:100%
+}
+
+
+.commonrow-prop{
+  width: 92%;
+  margin-left: 3%;
+}
+
+
+.col1-prop{
+  /* display: inline-block; */
+    /* margin: 0px 0px 15px; */
+    height: 76px;
+    /* width: 92%; */
+    /* width: 690px; */
+    /* padding: 0px; */
+    background: #FFF;
+    box-shadow: 0px 0px 5px #555;
+    filter: drop-shadow(0px 0px 5px #555);
+    -webkit-filter: drop-shadow(0px 0px 5px #555);
+    filter: drop-shadow(0px 0px 5px #555);
+    border-radius: 2px;
+    /* padding: 13px 20px; */
+    /* margin-left: 4%; */
+}
+
+.col2-prop{
+  /* display: inline-block; */
+  /* margin: 8px; */
+  height: 309px;
+  /* height: 60%; */
+  /* width: 382px; */
+  /* width: 46%; */
+  padding: 0px;
+  background: #FFF;
+  box-shadow: 0px 0px 5px #555;
+  filter: drop-shadow(0px 0px 5px #555);
+  -webkit-filter: drop-shadow(0px 0px 5px #555);
+  filter: drop-shadow(0px 0px 5px #555);
+  border-radius: 2px;
+  padding: 13px 20px;
+  /* position: absolute;
+  left: 3%; */
+}
+
+.col3-prop{
+  /* display: inline-block; */
+  /* margin: 8px; */
+  height: 309px;
+  /* height: 52%; */
+  /* width: 105px; */
+  /* width: 40%; */
+  padding: 0px;
+  background: #FFF;
+  box-shadow: 0px 0px 5px #555;
+  filter: drop-shadow(0px 0px 5px #555);
+  -webkit-filter: drop-shadow(0px 0px 5px #555);
+  filter: drop-shadow(0px 0px 5px #555);
+  border-radius: 2px;
+  /* padding: 13px 20px; */
+  /* position: absolute; */
+  /* right: 3%; */
+}
+
+
+.col4-prop{
+  /* display: inline-block; */
+    /* margin: 0px 0px 15px; */
+    height: 76px;
+    /* width: 92%; */
+    /* width: 690px; */
+    /* padding: 0px; */
+    background: #FFF;
+    box-shadow: 0px 0px 5px #555;
+    filter: drop-shadow(0px 0px 5px #555);
+    -webkit-filter: drop-shadow(0px 0px 5px #555);
+    filter: drop-shadow(0px 0px 5px #555);
+    border-radius: 2px;
+    /* padding: 13px 20px; */
+    /* margin-left: 4%; */
+  /* margin-top: 3%; */
+
+}
+
+
+#discountinput {
+  position: relative;
+  bottom: 22%;
+  /* right: 28%; */
+  color: #477e51;
+  width: 50%;
+  margin-top: 50%;
+}
+
+.row3-prop{
+  margin-bottom: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
